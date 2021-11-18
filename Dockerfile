@@ -2,6 +2,7 @@ FROM python:3.7-slim-buster as base
 
 USER root
 
+
 ENV ODOO_VERSION ${ODOO_VERSION:-13.0}
 # Library versions
 ARG WKHTMLTOX_VERSION
